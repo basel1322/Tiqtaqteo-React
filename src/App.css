@@ -75,16 +75,12 @@ h1 {
   display: none;
 }
 
-#whos-turn.x span.x,
-#whos-turn.o span.o, 
-#game-messages.player-x-win > span.player-x-win, 
-#game-messages.player-o-win > span.player-o-win,
-#game-messages.draw > span.draw {
+#game-messages .show {
   display: block;
   margin-top: 10px;
 }
 
-#reset-game {
+#reset-game,#restart-game {
   text-align: center;
       border: none;
       padding: 0.6em 1.2em;
@@ -99,6 +95,6 @@ h1 {
       border-radius: 2px;
 }
 
-#reset-game:hover {
+#reset-game:hover,#restart-game:hover {
       background: #2c3e52;
 }
